@@ -130,7 +130,6 @@ body {
         background: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px;
-
 }
 
 .hero-container {
@@ -189,13 +188,11 @@ body {
 }
 .name {
         text-align: center;
-        padding-top: 32px;
         margin-bottom: 8px;
 }
 
 .description {
         text-align: center;
-        padding-bottom: 32px;
 }
 
 .section-list {
@@ -207,14 +204,19 @@ body {
         background-color: #FFFFFF;
         border: 1px solid #e7e9fc;
         width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
-
+.team{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
 .section-list-item-header {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .section-list-item-text {
@@ -249,14 +251,22 @@ body {
 
 .portfolio {
         background-color: #FFFFFF;
+        padding-top: 120px;
+        padding-bottom: 120px;
 
 
+}
+.descr-portfolio{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
 
 .wrap-block {
         display: flex;
-        gap: 24px;
         flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
 }
 
 .wrap {
