@@ -3,7 +3,7 @@ ol {
         list-style-type: none;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 0;
+        padding-left: 0;
 }
 
 a {
@@ -202,7 +202,6 @@ body {
 
 .section-list-item {
         background-color: #FFFFFF;
-        border: 1px solid #e7e9fc;
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
 }
@@ -265,7 +264,6 @@ body {
         flex-wrap: wrap;
         row-gap: 48px;
         column-gap: 24px;
-        background: #fff;
 }
 
 .wrap {
